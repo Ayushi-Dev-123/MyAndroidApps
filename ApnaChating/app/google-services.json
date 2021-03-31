@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726159041413",
+    "firebase_url": "https://apnachating.firebaseio.com",
+    "project_id": "apnachating",
+    "storage_bucket": "apnachating.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726159041413:android:6f9e00c93290df8d4d5aec",
+        "android_client_info": {
+          "package_name": "com.ayushi.apnachating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726159041413-rdi8qhqpiu6dr772puf10ib6o6ktb4dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayushi.apnachating",
+            "certificate_hash": "ff8d1c647c900ae08d5473ea72a5183a49ef89ed"
+          }
+        },
+        {
+          "client_id": "726159041413-liavn1d4584lkaf07v6k0cgq95gtquvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwq_-IEn88wiOTD0jbua01bv0sikg1nIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726159041413-liavn1d4584lkaf07v6k0cgq95gtquvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

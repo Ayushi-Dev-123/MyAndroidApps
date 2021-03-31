@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+   <include layout="@layout/add_contact" />
+<!--
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/screen8"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="15dp"
+        android:hint="Name"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/screen8"
+        android:drawableLeft="@drawable/number"
+        android:drawablePadding="15dp"
+        android:hint="Number"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/screen8"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+-->
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/screen8"
+        android:gravity="center"
+        android:text="UPDATE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>

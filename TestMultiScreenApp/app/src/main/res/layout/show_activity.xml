@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/tx3"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product details"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_border"
+        android:text="Name :"
+        android:padding="8dp"
+        android:id="@+id/tvName"
+        android:layout_below="@+id/tv"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_border"
+        android:text="Price :"
+        android:padding="8dp"
+        android:id="@+id/tvPrice"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_border"
+        android:text="Description :"
+        android:padding="8dp"
+        android:id="@+id/tvDesc"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginTop="10dp"
+        android:lines="7"
+        android:textColor="#FFFFFF"
+     />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:text="Edit"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvDesc"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#2C3DA6"
+        android:id="@+id/btnEdit"
+        />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/C" android:title="C"/>
+    <item android:id="@+id/CPP" android:title="CPP"/>
+    <item android:id="@+id/Java" android:title="JAVA"/>
+
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ChatToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/actionBarPurple"
+        app:contentInsetStartWithNavigation="0dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chat_logo2"
+                android:id="@+id/civFriendProfile"
+                android:paddingTop="5dp"
+                />
+            <TextView
+                android:id="@+id/tvFriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apna Chat"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/civFriendProfile"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tvUserState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apna Chat"
+                android:textSize="10sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:layout_toRightOf="@id/civFriendProfile"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvFriend"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/lvChatMsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        android:layout_below="@id/ChatToolBar"
+        android:paddingBottom="20dp"
+        android:stackFromBottom="true"
+        android:layout_alignParentEnd="true"
+        android:transcriptMode="alwaysScroll"
+        android:divider="@android:color/transparent"
+        android:background="#1E9C27B0"
+         />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:weightSum="1"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:id="@+id/etChatMessage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:hint="Enter message"
+                android:paddingLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/ivAttachment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:src="@drawable/attachment"
+                />
+            <ImageView
+                android:id="@+id/ivGallery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:paddingLeft="5dp"
+                android:src="@drawable/photos"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/send" />
+    </LinearLayout>
+
+</RelativeLayout>

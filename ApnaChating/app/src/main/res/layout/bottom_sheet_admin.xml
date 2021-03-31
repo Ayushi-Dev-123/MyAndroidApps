@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/chat_logo2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/civUser"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/civUser"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ll"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/actionBarPurple"
+            android:id="@+id/tvUser"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" will be admin if you exit gorup"
+            android:textSize="14sp"
+            android:id="@+id/tvText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/ll"
+        >
+        <Button
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Exit"
+           android:textStyle="bold"
+           android:textSize="15sp"
+           android:layout_below="@+id/ll"
+           android:textColor="@color/white"
+
+           android:layout_marginRight="20dp"
+           android:background="@drawable/red_button_decorator"
+           android:id="@+id/btnExit"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancle"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_below="@+id/ll"
+            android:textColor="@color/white"
+
+            android:layout_marginRight="20dp"
+            android:background="@drawable/green_button_decorator"
+            android:id="@+id/btnCancle"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

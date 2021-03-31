@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/screen8">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Email"
+        android:id="@+id/etEmail"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:textColorHint="#16A1DF"
+        android:textColor="#16A1DF"
+        android:background="@drawable/border"
+        android:drawablePadding="15dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/etEmail"
+        android:hint="Password"
+        android:id="@+id/etPassword"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColorHint="#16A1DF"
+        android:inputType="textPassword"
+        android:textColor="#16A1DF"
+        android:background="@drawable/border"
+        android:drawablePadding="15dp"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/etPassword"
+        android:hint="Confirm Password"
+        android:id="@+id/etConfirmPassword"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColorHint="#16A1DF"
+        android:textColor="#16A1DF"
+        android:background="@drawable/border"
+        android:inputType="textPassword"
+        android:drawablePadding="15dp"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/etConfirmPassword"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:text="Create"
+        android:textColor="#16A1DF"
+        android:textStyle="bold" />
+</RelativeLayout>

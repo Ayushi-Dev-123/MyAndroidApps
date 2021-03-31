@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Enter name"
+         android:textColor="#000000"
+         android:textSize="15sp"
+         android:paddingLeft="10dp"
+         android:id="@+id/etName"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter mobile no."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/etMobile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/etEmail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/etAge"
+        />
+</LinearLayout>

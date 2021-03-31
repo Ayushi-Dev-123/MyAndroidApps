@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/border"
+    android:padding="10dp" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSearch"
+        android:hint="Grosery Search"
+        android:drawableRight="@drawable/search"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ListView
+        android:id="@+id/lvList"
+        android:listSelector="#96D34F"
+         android:layout_below="@id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+
+</RelativeLayout>

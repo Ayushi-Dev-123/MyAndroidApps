@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Thanks"
+    android:background="@drawable/birthday_background31">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU"
+        android:id="@+id/thank_you"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR YOUR"
+        android:id="@+id/For"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/thank_you"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WISHES"
+        android:id="@+id/Wishes"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/For"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"/>
+</RelativeLayout>

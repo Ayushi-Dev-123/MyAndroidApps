@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:id="@+id/pdfLogo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/pdf_logo"
+        />
+    <ImageView
+        android:id="@+id/wordLogo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/word_doc_logo"
+        />
+    <ImageView
+        android:id="@+id/videoLogo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/video_icon"
+        />
+
+
+</LinearLayout>

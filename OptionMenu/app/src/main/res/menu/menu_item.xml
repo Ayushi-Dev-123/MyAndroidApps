@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item  android:title="Facebook">
+        <menu >
+            <item android:title="Login" android:id="@+id/menuLogin" />
+            <item android:title="Signin" android:id="@+id/menuSignin" />
+        </menu>
+    </item>
+
+    <item android:title="Whatsapp"
+        android:id="@+id/menuWhatsapp"
+        />
+    <item android:id="@+id/menuInstagram"
+        android:title="Instagram"
+        />
+    <item android:title="Register"
+        android:id="@+id/menuRegister"
+        />
+</menu>

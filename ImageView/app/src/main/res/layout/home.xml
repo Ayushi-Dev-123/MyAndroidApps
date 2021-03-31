@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/rg"
+        >
+        <RadioButton
+            android:id="@+id/rdShinChan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ShainChan" />
+
+        <RadioButton
+            android:id="@+id/rdDoremon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doremon" />
+
+        <RadioButton
+            android:id="@+id/rdBheem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bheem" />
+    </RadioGroup>
+
+</LinearLayout>

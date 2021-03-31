@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Register Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#FF03A9F4"
+        android:textSize="35sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:id="@+id/etUserName"
+
+        android:layout_height="53dp"
+        android:background="@drawable/border"
+        android:hint="Username"
+        android:textColor="#FF03A9F4"
+        android:textColorHint="#FF03A9F4"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"
+
+        android:layout_height="53dp"
+        android:background="@drawable/border"
+        android:hint="Password"
+        android:textColor="#FF03A9F4"
+        android:textColorHint="#FF03A9F4"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:inputType="number"
+        android:id="@+id/etNumber"
+
+        android:layout_height="53dp"
+        android:background="@drawable/border"
+        android:hint="Mobile No."
+        android:textColor="#FF03A9F4"
+        android:textColorHint="#FF03A9F4"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:text="Gender"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/rdMale"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/rdFemale"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textColor="#FF03A9F4"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#FFFFFF"/>
+</LinearLayout>

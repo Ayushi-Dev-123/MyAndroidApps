@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/tx3"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product details"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_border"
+        android:hint="Name :"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:id="@+id/etName"
+        android:layout_below="@+id/tv"
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_border"
+        android:hint="Price :"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:id="@+id/etPrice"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_border"
+        android:hint="Description :"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:id="@+id/etDesc"
+        android:layout_below="@+id/etPrice"
+        android:layout_marginTop="10dp"
+        android:lines="7"
+        android:textColor="#FFFFFF"
+     />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:text="Save"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etDesc"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#2C3DA6"
+        android:id="@+id/btnSave"
+        />
+</RelativeLayout>
+</ScrollView>
